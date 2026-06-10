@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+date-released: 2024-03
+message: "If you use this software, please cite it as below."
+authors:
+- name: "KevinAi18"
+title: "LLM Fine-Tuning Toolkit: Unified Efficient Fine-Tuning of 100+ Language Models"
+url: "https://github.com/KevinAi18/llm-finetuning-toolkit"
+preferred-citation:
+  type: conference-paper
+  conference:
+    name: "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 3: System Demonstrations)"
+  authors:
+    - name: "KevinAi18"
+  title: "LLM Fine-Tuning Toolkit: Unified Efficient Fine-Tuning of 100+ Language Models"
+  url: "https://github.com/KevinAi18/llm-finetuning-toolkit"
+  year: 2024
+  publisher: "Association for Computational Linguistics"
+  address: "Bangkok, Thailand"
