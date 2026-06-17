@@ -19,3 +19,10 @@
 - No reward model needed unlike PPO making training simpler 
 - Dataset format requires prompt, chosen and rejected columns 
 - DPO more stable than PPO and uses less GPU memory 
+ 
+## 2026-06-21 
+### ORPO Fine-Tuning Notes 
+- ORPO combines SFT and preference alignment in single training step 
+- No need for separate reward model or reference model 
+- Odds ratio penalty discourages rejected response generation 
+- ORPO uses less GPU memory and trains faster than DPO 
