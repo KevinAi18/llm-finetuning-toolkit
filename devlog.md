@@ -26,3 +26,10 @@
 - No need for separate reward model or reference model 
 - Odds ratio penalty discourages rejected response generation 
 - ORPO uses less GPU memory and trains faster than DPO 
+ 
+## 2026-06-23 
+### PPO Fine-Tuning with RLHF Notes 
+- PPO uses reward model to score LLM responses during training 
+- KL divergence penalty stops model drifting too far from base 
+- Actor critic architecture used to stabilize PPO training 
+- TRL library provides ready to use PPO trainer for LLMs 
