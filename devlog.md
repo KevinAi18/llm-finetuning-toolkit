@@ -33,3 +33,10 @@
 - KL divergence penalty stops model drifting too far from base 
 - Actor critic architecture used to stabilize PPO training 
 - TRL library provides ready to use PPO trainer for LLMs 
+ 
+## 2026-06-25 
+### Dataset Preparation for Fine-Tuning Notes 
+- Instruction tuning datasets need prompt and response pairs 
+- Data deduplication removes near identical training examples 
+- Quality filtering removes low quality or toxic samples 
+- Tokenization length distribution checked before training starts 
