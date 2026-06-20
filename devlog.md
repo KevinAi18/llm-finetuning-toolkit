@@ -40,3 +40,10 @@
 - Data deduplication removes near identical training examples 
 - Quality filtering removes low quality or toxic samples 
 - Tokenization length distribution checked before training starts 
+ 
+## 2026-06-28 
+### Gradient Checkpointing Notes 
+- Gradient checkpointing trades compute for reduced memory usage 
+- Only stores subset of activations during forward pass 
+- Recomputes missing activations during backward pass when needed 
+- Allows fine-tuning larger models on limited GPU memory 
