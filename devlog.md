@@ -47,3 +47,10 @@
 - Only stores subset of activations during forward pass 
 - Recomputes missing activations during backward pass when needed 
 - Allows fine-tuning larger models on limited GPU memory 
+ 
+## 2026-06-30 
+### Evaluation Metrics for Fine-Tuned Models 
+- Perplexity measures how well model predicts held out test set 
+- BLEU and ROUGE scores used for translation and summarization tasks 
+- Human evaluation still gold standard for response quality checks 
+- LLM as judge used for scalable automated response evaluation 
