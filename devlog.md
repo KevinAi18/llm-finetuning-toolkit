@@ -54,3 +54,10 @@
 - BLEU and ROUGE scores used for translation and summarization tasks 
 - Human evaluation still gold standard for response quality checks 
 - LLM as judge used for scalable automated response evaluation 
+ 
+## 2026-07-02 
+### Multi GPU Training Notes 
+- Data parallelism splits batch across multiple GPUs for training 
+- DeepSpeed ZeRO reduces memory by sharding optimizer states 
+- FSDP shards model parameters across GPUs for large model training 
+- Accelerate library simplifies multi GPU setup with minimal code 
