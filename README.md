@@ -125,3 +125,10 @@ In **full fine-tuning**, every single parameter of the neural network is updated
 4. **Targeted LoRA Adapters:** Low-Rank Adaptation matrices are added to all linear layers of the transformer. Only these tiny adapter weights are trained during backpropagation.
 
 By using QLoRA, AI engineers can fine-tune high-quality 7B models on standard consumer GPUs (like a single RTX 4070 or 3060) and run 70B models on dual-consumer GPUs, dropping infrastructure costs by over 90% without sacrificing accuracy.
+ 
+## Supported Fine-Tuning Methods 
+- LoRA - Low Rank Adaptation for parameter efficient tuning 
+- QLoRA - Quantized LoRA for memory constrained training 
+- DPO - Direct Preference Optimization for alignment 
+- PPO - Proximal Policy Optimization with reward model 
+- ORPO - Combined SFT and preference alignment in one step 
