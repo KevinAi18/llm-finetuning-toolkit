@@ -132,3 +132,11 @@ By using QLoRA, AI engineers can fine-tune high-quality 7B models on standard co
 - DPO - Direct Preference Optimization for alignment 
 - PPO - Proximal Policy Optimization with reward model 
 - ORPO - Combined SFT and preference alignment in one step 
+ 
+## Quick Start 
+ 
+1. Install dependencies from requirements.txt 
+2. Prepare your dataset in prompt/response JSON format 
+3. Choose a fine-tuning method - LoRA, QLoRA, DPO, PPO or ORPO 
+4. Run the training script with your config file 
+5. Evaluate the fine-tuned model using the included eval scripts 
