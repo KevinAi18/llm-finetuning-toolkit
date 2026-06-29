@@ -140,3 +140,9 @@ By using QLoRA, AI engineers can fine-tune high-quality 7B models on standard co
 3. Choose a fine-tuning method - LoRA, QLoRA, DPO, PPO or ORPO 
 4. Run the training script with your config file 
 5. Evaluate the fine-tuned model using the included eval scripts 
+ 
+## Requirements 
+- Python 3.10 or higher 
+- CUDA capable GPU recommended for training 
+- transformers, peft, trl and bitsandbytes libraries 
+- Minimum 16GB GPU memory for QLoRA on 7B models 
