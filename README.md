@@ -146,3 +146,8 @@ By using QLoRA, AI engineers can fine-tune high-quality 7B models on standard co
 - CUDA capable GPU recommended for training 
 - transformers, peft, trl and bitsandbytes libraries 
 - Minimum 16GB GPU memory for QLoRA on 7B models 
+ 
+## Roadmap 
+- Add support for multi-GPU distributed training out of the box 
+- Integrate automated hyperparameter search 
+- Add support for newer base models as they release 
