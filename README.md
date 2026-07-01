@@ -151,3 +151,9 @@ By using QLoRA, AI engineers can fine-tune high-quality 7B models on standard co
 - Add support for multi-GPU distributed training out of the box 
 - Integrate automated hyperparameter search 
 - Add support for newer base models as they release 
+ 
+## Contributing 
+- Fork the repository and create a feature branch 
+- Test all changes on at least one supported fine-tuning method 
+- Document any new training configs or dataset formats you add 
+- Open a pull request with benchmark results where possible 
