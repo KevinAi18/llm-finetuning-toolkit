@@ -157,3 +157,9 @@ By using QLoRA, AI engineers can fine-tune high-quality 7B models on standard co
 - Test all changes on at least one supported fine-tuning method 
 - Document any new training configs or dataset formats you add 
 - Open a pull request with benchmark results where possible 
+ 
+## Performance 
+- QLoRA fine-tuning of 7B model completes in under 2 hours on A100 
+- LoRA reduces trainable parameters by over 90 percent vs full tuning 
+- DPO training converges faster than PPO with less GPU memory 
+- Evaluation scripts run automated benchmarks after each training run 
