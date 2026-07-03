@@ -163,3 +163,9 @@ By using QLoRA, AI engineers can fine-tune high-quality 7B models on standard co
 - LoRA reduces trainable parameters by over 90 percent vs full tuning 
 - DPO training converges faster than PPO with less GPU memory 
 - Evaluation scripts run automated benchmarks after each training run 
+ 
+## License 
+This project is released under the MIT License. See the LICENSE file for details. 
+ 
+## Acknowledgements 
+Built using Hugging Face transformers, peft and trl libraries. 
