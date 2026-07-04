@@ -181,3 +181,10 @@ wandb/
 swanlog/
 generated_predictions.jsonl
 predictions_score.json
+__pycache__/ 
+*.pyc 
+.env 
+venv/ 
+*.log 
+checkpoints/ 
+wandb/ 
