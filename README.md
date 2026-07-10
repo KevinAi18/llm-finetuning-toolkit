@@ -169,3 +169,7 @@ This project is released under the MIT License. See the LICENSE file for details
  
 ## Acknowledgements 
 Built using Hugging Face transformers, peft and trl libraries. 
+ 
+## FAQ 
+Q: Which is better, LoRA or full fine-tuning? 
+A: LoRA is more memory efficient and usually sufficient unless you need maximum performance on a highly specialized task. 
