@@ -173,3 +173,7 @@ Built using Hugging Face transformers, peft and trl libraries.
 ## FAQ 
 Q: Which is better, LoRA or full fine-tuning? 
 A: LoRA is more memory efficient and usually sufficient unless you need maximum performance on a highly specialized task. 
+ 
+## Troubleshooting 
+- If you hit out of memory errors, reduce batch size or enable gradient checkpointing 
+- If training loss is not decreasing, check your learning rate and dataset format 
