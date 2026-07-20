@@ -1,3 +1,4 @@
+![License](https://img.shields.io/badge/license-MIT-blue.svg) ![Python](https://img.shields.io/badge/python-3.11-blue.svg) 
 # LLM Fine-Tuning Toolkit
 
 An ultra-efficient, production-ready framework for customizing, training, and aligning large language models. Built for AI engineers who require performance, flexibility, and production reliability.
