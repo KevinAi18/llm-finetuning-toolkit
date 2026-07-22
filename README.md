@@ -178,3 +178,6 @@ A: LoRA is more memory efficient and usually sufficient unless you need maximum 
 ## Troubleshooting 
 - If you hit out of memory errors, reduce batch size or enable gradient checkpointing 
 - If training loss is not decreasing, check your learning rate and dataset format 
+ 
+## Design Philosophy 
+This toolkit favors sensible defaults over exhaustive configuration, so someone can go from raw dataset to a fine-tuned model without needing to understand every hyperparameter first. 
