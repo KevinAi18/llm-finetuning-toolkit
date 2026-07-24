@@ -181,3 +181,6 @@ A: LoRA is more memory efficient and usually sufficient unless you need maximum 
  
 ## Design Philosophy 
 This toolkit favors sensible defaults over exhaustive configuration, so someone can go from raw dataset to a fine-tuned model without needing to understand every hyperparameter first. 
+ 
+## Related Projects 
+Check out other projects in this portfolio for RAG, sentiment analysis, and computer vision work. 
